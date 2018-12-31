@@ -5,7 +5,9 @@ cmsrel CMSSW_9_4_10
 cd CMSSW_9_4_10/src  
 cmsenv  
 git cms-init
+
 git cms-merge-topic cms-egamma:EgammaID_949
+
 git cms-merge-topic cms-egamma:EgammaPostRecoTools_940 
 scram b -j 8  
 
